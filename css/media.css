@@ -40,6 +40,14 @@
     }
 }
 
+@media screen and (max-width: 1158px) {
+    .main__img4,
+    .main__img5,
+    .main__img6 {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1140px) {
     .content .vector-img1 {
         left: 70px;
@@ -93,6 +101,14 @@
     .free-product-text2 {
         font-size: 16px;
         line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .main__img1,
+    .main__img2,
+    .main__img3 {
+        display: none;
     }
 }
 
@@ -155,7 +171,7 @@
         margin: 0;
     }
     .main__img {
-        display: none;
+        /* display: none; */
     }
 }
 
