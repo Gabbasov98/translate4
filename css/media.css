@@ -55,6 +55,9 @@
     .hide-img2 {
         display: none;
     }
+    .content-subtitle {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -148,6 +151,9 @@
     }
     .title3 {
         line-height: 36px;
+    }
+    .product-btn--mob {
+        margin-bottom: 0;
     }
 }
 
