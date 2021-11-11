@@ -119,7 +119,8 @@
     .product-item:last-child {
         width: 47%;
     }
-    .product-item {
+    .product-item,
+    .product-container--pt35 .product-item {
         width: 47%;
         text-align: center !important;
     }

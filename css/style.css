@@ -302,6 +302,14 @@ body.active {
     margin-right: auto;
 }
 
+.product-container--pt35 .row {
+    justify-content: space-between;
+}
+
+.product-container--pt35 .product-item {
+    width: unset;
+}
+
 .product-item {
     width: 33%;
     text-align: center;
