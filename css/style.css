@@ -44,6 +44,11 @@ body.active {
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
 
 /* Extra classes: */
 
@@ -227,6 +232,10 @@ body.active {
     padding: 30px 15px 60px;
 }
 
+.content--color {
+    padding-top: 55px;
+}
+
 .content .vector-img1 {
     position: absolute;
     left: 180px;
@@ -259,7 +268,7 @@ body.active {
 }
 
 .content-nofees {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 22px;
     line-height: 31px;
     margin-top: 30px;
@@ -288,6 +297,9 @@ body.active {
 
 .product-container--pt35 {
     padding-top: 35px;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-item {
