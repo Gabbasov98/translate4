@@ -328,12 +328,14 @@ body.active {
 }
 
 .product-item:first-child .product-item__colors,
-.product-item:first-child .product-item__weights {
+.product-item:first-child .product-item__weights,
+.product-item:first-child>img {
     margin-left: 0;
 }
 
 .product-item:nth-child(3) .product-item__colors,
-.product-item:nth-child(3) .product-item__weights {
+.product-item:nth-child(3) .product-item__weights,
+.product-item:nth-child(3)>img {
     margin-right: 0;
 }
 
@@ -374,7 +376,7 @@ body.active {
     font-size: 16px;
     line-height: 20px;
     color: #2D2D2D;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
 }
 
 .product-item__color {
@@ -382,6 +384,12 @@ body.active {
     height: 19px;
     border-radius: 50%;
     margin: 0 1px;
+}
+
+.product-item>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .product-btn--mb0 {
